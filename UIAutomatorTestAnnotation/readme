@@ -1,0 +1,9 @@
+1) Create java command line project
+
+2) Add libs to project: android.jar and uiautomator.jar (path to libs ../ANDROID_HOME/platforms/android-*/)
+
+3) Create build.xml for uiautomator project:
+android create uitest-project -n <name> -t <target> -p <path>
+<name> - name of the project
+<target> - run command: android list targets
+<path> - path to the project
